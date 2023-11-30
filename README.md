@@ -45,7 +45,8 @@ This repo is the official implementation for <mark>SelfGCN: Graph Convolution Ne
   # Transform the skeleton to the center of the first frame
   python seq_transformation.py
   
-
+# Pretrained Model
+[pretrained_model](https://pan.baidu.com/s/1GmmMIJKPCDXnnCSCWEWIPg?pwd=5136)
 # Training & Testing
 ***
 ### Training
