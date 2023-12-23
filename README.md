@@ -2,9 +2,9 @@
 
 This repo is the official implementation for <mark>SelfGCN: Graph Convolution Network with Self-Attention for Skeleton-based Action Recognition</mark>. 
 
-# Architecture of MFSG and TSSA
-![image](https://github.com/SunPengP/SelfGCN/blob/main/src/MFSG.jpg)
-![image](https://github.com/SunPengP/SelfGCN/blob/main/src/TSSA.jpg)
+# Architecture of SelfGCN
+![image](https://github.com/SunPengP/SelfGCN/blob/main/src/model.png)
+![image](https://github.com/SunPengP/SelfGCN/blob/main/src/biInter.png)
 
 # Data Preparation
 ### There are 3 datasets to download:
@@ -55,4 +55,6 @@ This repo is the official implementation for <mark>SelfGCN: Graph Convolution Ne
 - Ensemble the results of different modalities
   ```
   python ensemble.py --dataset ntu120/xsub --joint-dir work_dir/ntu120/joint --bone-dir work_dir/ntu120/bone --joint-motion-dir work_dir/ntu120/motion --bone-motion-dir work_dir/ntu120/bone_motion
-  
+
+# Acknowledge
+This repo is based on CTR-GCN, thanks to their excellent work.
