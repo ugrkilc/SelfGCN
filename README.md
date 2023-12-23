@@ -55,4 +55,6 @@ This repo is the official implementation for <mark>SelfGCN: Graph Convolution Ne
 - Ensemble the results of different modalities
   ```
   python ensemble.py --dataset ntu120/xsub --joint-dir work_dir/ntu120/joint --bone-dir work_dir/ntu120/bone --joint-motion-dir work_dir/ntu120/motion --bone-motion-dir work_dir/ntu120/bone_motion
-  
+
+# Acknowledge
+This repo is based on CTR-GCN, thanks to their excellent work.
