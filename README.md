@@ -2,7 +2,7 @@
 
 This repo is the official implementation for <mark>SelfGCN: Graph Convolution Network with Self-Attention for Skeleton-based Action Recognition</mark>. 
 
-# Architecture of MFSG and TSSA
+# Architecture of SelfGCN
 ![image](https://github.com/SunPengP/SelfGCN/blob/main/src/model.png)
 ![image](https://github.com/SunPengP/SelfGCN/blob/main/src/biInter.png)
 
